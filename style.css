@@ -77,7 +77,7 @@
     .img {
         position: absolute;
         right: 1%;
-        top: 48%;
+        top: 40%;
         width: 180px;
         height: 180px;
         
@@ -94,9 +94,12 @@
     }
     .text > p {
         display: none;
+       ;
     }
    .qr {
       font-size: 200px;
+      filter: alpha(opacity=50);  /* Opacity for IE8 and lower */
+      zoom: 1;
       font-family: Arial, Helvetica, sans-serif;
 
   }
