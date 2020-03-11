@@ -41,6 +41,7 @@
     border: none;
     opacity: 70%; 
     padding-left: 10px;
+    color:black;
 }
 .poster > label > input::-webkit-input-placeholder { /* WebKit browsers */
     padding-left: 5%
@@ -75,30 +76,36 @@
 @media only screen and (max-width: 500px) {
     .img {
         position: absolute;
-        right: 2%;
-        bottom: 25%;
-        width: 120px;
-        height: 120px;
+        right: 1%;
+        top: 48%;
+        width: 180px;
+        height: 180px;
         
     }
-    .qr {
-        font-size: 15rem;
-        color: #FFFFFF;
-        opacity: 30%;
-        position: relative;
-        font-family: 'Monoton', cursive;
-        font-weight: 800;
-      
-    }
+  
     .text {
         position: absolute;
         top: 20%;
         color: white;
         left: 15px;
         font-family: 'Rubik', sans-serif;
-        font-size: 30px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .text > p {
         display: none;
     }
+   .qr {
+      font-size: 200px;
+      font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .poster > label {
+      bottom: 120px;
+      position: absolute;
+      
+  }
+  .poster > label > button {
+      width: 150px;
+  }
 }
