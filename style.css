@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.poster{
+    background-image: linear-gradient(140deg,#00dbde,#fc00ff);
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.poster > svg {
+    position: absolute;
+    bottom: 0px;
+}
+.qr {
+    font-size: 22rem;
+    color: #FFFFFF;
+    opacity: 30%;
+    position: relative;
+  
+}
+.text {
+    position: absolute;
+    top: 20%;
+    color: white;
+    left: 15px;
+}
+.poster > label > input {
+    position: absolute;
+    height: 2.5rem;
+    width: 190px;
+    border-radius: 25px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: none;
+    opacity: 70%;
+}
+.poster > label > input::-webkit-input-placeholder { /* WebKit browsers */
+    padding-left: 5%
+} 
+
+.poster > label > button {
+    position: absolute;
+    left: 200px;
+    width: 190px;
+    height: 2.5rem;
+    border-radius: 25px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #fe346e;
+    color: white;
+    font-size: 15px;
+}
